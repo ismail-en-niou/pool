@@ -33,5 +33,4 @@ int main() {
     printf("Valeur de retour de strlcat : %u\n", result);
     printf("Contenu de dest après l'appel : %s\n", dest);
     
-    return 0;
 }
