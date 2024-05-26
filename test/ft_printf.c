@@ -68,6 +68,6 @@ int ft_printf(const char *format, ...)
 int main()
 {
     int a = 2158964;
-    ft_printf("Hello %s! The number is %d and the character is %c. Also, show a percent sign: %%%%\n CCCC", "world", a, 'A');
+    ft_printf("Hello I'm ismail enniou  %s! The number is %d and the character is %c. Also, show a percent sign: %%%%\n CCCC", "world", a, 'A');
     return 0;
 }

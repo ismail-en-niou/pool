@@ -1,4 +1,4 @@
-
+// man9ola mafehmhaxe mzyn
 #include <stdio.h>
 int	checkerror(char *str)
 {
@@ -71,7 +71,7 @@ int		ft_atoi_base(char *str, char *base)
 	if (begin_len >= 2)
 	{
 		negative = whitespaces(str, &i);
-		printf("%d",i);
+
 		nb2 = nb_base(str[i], base);
 		while (nb2 != -1)
 		{
