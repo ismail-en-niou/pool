@@ -8,7 +8,6 @@ void ft_swap(int *a, int *b) {
 void ft_rev_int_tab(int *tab, int size) {
     int j = 0;
     int i = size -1 ;
-    // for (int i = size - 1; i > j; i--) 
     while (i>j)
     { 
         ft_swap(&tab[j], &tab[i]);
