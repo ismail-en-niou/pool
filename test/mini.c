@@ -14,7 +14,7 @@ void search_and_replace(char *str, char l1 , char l2) {
 }
 
 int main(int argc, char const *argv[]) {
-    if (argc != 3 || argv[1][1] != '\0' || argv[2][1] != '\0' || argv[3][1] != '\0') {
+    if (argc != 4 || argv[1][1] != '\0' || argv[2][1] != '\0' || argv[3][1] != '\0') {
         write(1, "\n", 1);
         return 1;
     }
